@@ -1,0 +1,30 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# FAISS index / local vector store caches
+*.faiss
+*.pkl
+faiss_index/
+
+# Temporary uploads and OS files
+*.pdf
+tmp/
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
